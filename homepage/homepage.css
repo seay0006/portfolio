@@ -1,8 +1,26 @@
 
 /* mobile device query */
 @media screen and (min-device-width: 1px) and (max-device-width: 600px){
+
+    /* Navigation bar at the top of the page */
     .navbar {
+        height: 300px;
         background-color: #3A5B15;
+    }
+    .navbar-nav {
+        position: relative;
+        top: 100px;
+        font-size: large;
+        left: 35px;
+    }
+    .nav1 {
+        padding-left: 50px;
+    }
+    .nav2 {
+        padding-left: 50px;
+    }
+    .nav3 {
+        padding-left: 50px;
     }
 }
 
