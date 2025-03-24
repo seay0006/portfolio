@@ -9,8 +9,10 @@
     }
     .navbar-nav {
         position: relative;
+        text-decoration: underline;
+        color: white;
         top: 100px;
-        font-size: large;
+        font-size: larger;
         left: 35px;
     }
     .nav1 {
@@ -21,6 +23,11 @@
     }
     .nav3 {
         padding-left: 50px;
+    }
+    .nilocdevs-logo {
+        position: relative;
+        bottom: 300px;
+        left: 30px;
     }
 }
 
