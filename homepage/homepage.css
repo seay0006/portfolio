@@ -13,7 +13,7 @@
         color: white;
         top: 100px;
         font-size: larger;
-        left: 35px;
+        left: 85px;
     }
     .nav1 {
         padding-left: 50px;
@@ -27,10 +27,55 @@
     .nilocdevs-logo {
         position: relative;
         bottom: 300px;
-        left: 30px;
+        left: 80px;
     }
-}
+    /* banner section */
+    .headergreeting {
+        h1 {
+            position: relative;
+            bottom: 350px;
+            left: 130px;
+            font-size:60px;
+            width: 400px;
+        }
+    }
+    /* greetingimage */
+    .headerimage {
+        position: relative;
+        left: 60px;
+        bottom: 300px;
+    }
+    /* socials navigation */
+    .hr1 {
+        position: relative;
+        background-color: #3A5B15;
+        height: 20px;
+        border: 5px;
+        bottom: 200px;
+        width: 600px;
+        padding-bottom: 15px;
+    }
+    .github-icon {
+        position: relative;
+    }
+    .socials {
+        position: relative;
+        left: 50px;
+        bottom: 75px;
+    }
+    /* social cards */
+    .card1 {
+        padding-top: 25px;
+    }
+    .card2 {
+        padding-top: 25px;
+    }
 
+    /* What do we do section */
+    
+
+
+}
 /* laptop device query */
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
 
