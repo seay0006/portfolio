@@ -60,15 +60,30 @@
     }
     .socials {
         position: relative;
-        left: 50px;
         bottom: 75px;
+        left: 35px;
     }
     /* social cards */
+    /* card1 = github */
     .card1 {
+        font-size: x-large;
         padding-top: 25px;
+        text-align: center;
+        
+        h5 {
+            position: relative;
+            font-size: larger;
+        }
     }
+    /* card2 = instagram */
     .card2 {
+        font-size: x-large;
         padding-top: 25px;
+        text-align: center;
+        h5 {
+            position: relative;
+            font-size: larger;
+        }
     }
 
     /* What do we do section */
