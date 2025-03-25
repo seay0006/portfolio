@@ -87,9 +87,34 @@
     }
 
     /* What do we do section */
-    
-
-
+    .whatdowedo {
+        text-align: center;
+    }
+    .whatdowedoheader{
+        h2{
+            text-decoration: underline;
+            font-size: 58px;
+        }
+    }
+    .whatdowedotext{
+        h3{
+            position: relative;
+            left: 100px;
+            top: 25px;
+            font-size: 38px;
+            width: 400px;
+        }
+    }
+    /* hr above the footer of homepage */
+    .hr2 {
+        position: relative;
+        background-color: #3A5B15;
+        height: 20px;
+        border: 5px;
+        top: 250px;
+        width: 600px;
+        padding-bottom: 15px;
+    }
 }
 /* laptop device query */
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
