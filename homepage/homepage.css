@@ -172,30 +172,62 @@
     .privacy-policy {
         position: relative;
         left: 85px;
-        bottom: 130px;
+        bottom: 110px;
         text-decoration: underline;
         font-size: 22px;
     }
     .services {
         position: relative;
         left: 375px;
-        bottom: 180px;
+        bottom: 160px;
         text-decoration: underline;
         font-size: 22px;
     }
     .website-accessibility {
         position: relative;
         left: 55px;
-        bottom: 170px;
+        bottom: 150px;
         text-decoration: underline;
         font-size: 22px;
     }
-    
-
+    .legal-information {
+        position: relative;
+        left: 325px;
+        bottom: 195px;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+    .website-title-footer {
+        position: relative;
+        bottom: 110px;
+        left: 220px;
+        font-size: 150px;
+    }
+    .copyright {
+        position: relative;
+        left: 165px;
+        bottom: 125px;
+        color: grey;
+    }
+    .hr3 {
+        position: relative;
+        background-color: #3A5B15;
+        height: 10px;
+        border: 5px;
+        bottom: 85px;
+        width: 600px;
+        padding-bottom: 15px;
+    }
 }
 /* laptop device query */
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
 
+
+
+
+
+
+    
 }
 
 /* desktop device query */
