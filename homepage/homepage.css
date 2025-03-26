@@ -127,7 +127,6 @@
             color: white;
         }
     }
-    
     /* hr above the footer of homepage */
     .hr2 {
         position: relative;
@@ -138,6 +137,22 @@
         width: 600px;
         padding-bottom: 15px;
     }
+    /* footer section */
+    .footersection {
+        position: relative;
+        top: 250px;
+        height: 500px;
+    }
+    .social-icons { 
+        
+    }
+    .github-logo {
+        position: relative;
+        left: 110px;
+        bottom: 125px;
+    }
+
+
 }
 /* laptop device query */
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
