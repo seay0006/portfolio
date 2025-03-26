@@ -183,7 +183,14 @@
         text-decoration: underline;
         font-size: 22px;
     }
-
+    .website-accessibility {
+        position: relative;
+        left: 55px;
+        bottom: 170px;
+        text-decoration: underline;
+        font-size: 22px;
+    }
+    
 
 }
 /* laptop device query */
