@@ -171,12 +171,17 @@
     /* footer navigation */
     .privacy-policy {
         position: relative;
-        left: 50px;
+        left: 85px;
         bottom: 130px;
         text-decoration: underline;
+        font-size: 22px;
     }
     .services {
-        
+        position: relative;
+        left: 375px;
+        bottom: 180px;
+        text-decoration: underline;
+        font-size: 22px;
     }
 
 
