@@ -86,6 +86,8 @@
         }
     }
 
+
+
     /* What do we do section */
     .whatdowedo {
         text-align: center;
@@ -108,6 +110,23 @@
 
     /*Our Catalog button within the "what do we do?" section  */
 
+    .whatdowedobutton {
+        position: relative;
+        top: 100px;
+        left: 140px;
+        background-color: #3A5B15;
+        width: 300px;
+        height: 75px;
+        border-radius: 10px;
+        box-shadow: inset;
+
+        h3{
+            position: relative;
+            left: 80px;
+            top: 20px;
+            color: white;
+        }
+    }
     
     /* hr above the footer of homepage */
     .hr2 {
