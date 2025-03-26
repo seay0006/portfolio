@@ -143,13 +143,40 @@
         top: 250px;
         height: 500px;
     }
+    /* footer social media icons */
     .social-icons { 
-        
+        position: relative;
+        left: 10px;
     }
     .github-logo {
         position: relative;
         left: 110px;
         bottom: 125px;
+    }
+    .facebook-logo {
+        position: relative;
+        left: 200px;
+        bottom: 55px;
+    }
+    .instagram-logo {
+        position: relative;
+        left: 285px;
+        top: 70px;
+    }
+    .twitter-logo {
+        position: relative;
+        left: 365px;
+        top: 7px;
+    }
+    /* footer navigation */
+    .privacy-policy {
+        position: relative;
+        left: 50px;
+        bottom: 130px;
+        text-decoration: underline;
+    }
+    .services {
+        
     }
 
 
