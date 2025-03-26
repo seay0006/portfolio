@@ -226,6 +226,7 @@
  .navbar {
     height: 120px;
     background-color: #3A5B15;
+    width: 992px;
 }
 .navbar-nav {
     position: relative;
@@ -290,7 +291,11 @@
     position: relative;
     bottom: 75px;
     left: 35px;
+    display: grid;
+    grid-template-columns:446px 446px;
+    width: 50px;
 }
+
 /* card1 = github */
 .card1 {
     font-size: x-large;
