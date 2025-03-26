@@ -222,12 +222,98 @@
 /* laptop device query */
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
 
+ /* Navigation bar at the top of the page */
+ .navbar {
+    height: 120px;
+    background-color: #3A5B15;
+}
+.navbar-nav {
+    position: relative;
+    text-decoration: underline;
+    color: white;
+    font-size: 22px;
+    left: 315px;
+    top: 8px;
+}
+.nav1 {
+    padding-left: 50px;
+}
+.nav2 {
+    padding-left: 50px;
+}
+.nav3 {
+    padding-left: 50px;
+}
+.nilocdevs-logo {
+    position: relative;
+    bottom: 120px;
+    left: -20px;
 
+    img{
+        width: 30%;
+    }
+}
+/* banner section */
+.headergreeting {
+    h1 {
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+        font-size:60px;
+        width: 400px;
+    }
+}
+/* greetingimage */
+.headerimage {
+    position: relative;
+    left: 440px;
+    bottom: 240px;
 
-
-
-
+    img {
+        width: 40%;
+    }
+}
+ /* socials navigation */
+ .hr1 {
+    position: relative;
+    background-color: #3A5B15;
+    height: 20px;
+    border: 5px;
+    bottom: 200px;
+    width: 992px;
+    padding-bottom: 15px;
+}
+.github-icon {
+    position: relative;
+}
+.socials {
+    position: relative;
+    bottom: 75px;
+    left: 35px;
+}
+/* card1 = github */
+.card1 {
+    font-size: x-large;
+    padding-top: 25px;
+    text-align: center;
     
+    h5 {
+        position: relative;
+        font-size: larger;
+    }
+}
+/* card2 = instagram */
+.card2 {
+    font-size: x-large;
+    padding-top: 25px;
+    text-align: center;
+    h5 {
+        position: relative;
+        font-size: larger;
+    }
+}
+
+
 }
 
 /* desktop device query */
