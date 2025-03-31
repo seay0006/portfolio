@@ -302,20 +302,57 @@
     padding-top: 25px;
     text-align: center;
     
+    
+    h5 {
+        position: relative;
+        bottom: 30px;
+        font-size: larger;
+    }
+
+    p {
+        position: relative;
+        bottom: 30px;
+    }
+}
+/* card2 = instagram */
+.card2 {
+    position: relative;
+    bottom: 25px;
+    left: 25px;
+    font-size: x-large;
+    padding-top: 25px;
+    text-align: center;
+    
     h5 {
         position: relative;
         font-size: larger;
     }
 }
-/* card2 = instagram */
-.card2 {
-    font-size: x-large;
-    padding-top: 25px;
+/* hr between whatdowedo and socials */
+.hr4 {
+    position: relative;
+    left: 100px;
+    width: 800px;
+    padding-bottom: 25px;
+}
+/* what do we do section below */
+
+.whatdowedoheader {
+    position: relative;
     text-align: center;
-    h5 {
-        position: relative;
+    font-size: 55px;
+    text-decoration: underline;
+
+    h2 {
         font-size: larger;
     }
+}
+.whatdowedotext {
+    position: relative;
+    width: 600px;
+    text-align: center;
+    padding-top: 15px;
+    left: 200px;
 }
 
 
