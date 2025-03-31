@@ -354,8 +354,25 @@
     padding-top: 15px;
     left: 200px;
 }
-
-
+.whatdowedobutton {
+    position: relative;
+    left: 340px;
+    color: white;
+    height: 50px;
+    border-radius: 8px;
+    top: 50px;
+    background-color: #3A5B15;
+    width: 300px;
+    text-align: center;
+    
+    h3{
+        position: relative;
+        top: 8px;
+    }
+}
+.hr2 {
+    position: relative; top: 200px;
+}
 }
 
 /* desktop device query */
