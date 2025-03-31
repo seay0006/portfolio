@@ -233,7 +233,7 @@
     text-decoration: underline;
     color: white;
     font-size: 22px;
-    left: 315px;
+    left: 515px;
     top: 8px;
 }
 .nav1 {
@@ -247,7 +247,7 @@
 }
 .nilocdevs-logo {
     position: relative;
-    bottom: 120px;
+    bottom: 140px;
     left: -20px;
 
     img{
@@ -258,8 +258,8 @@
 .headergreeting {
     h1 {
         position: relative;
-        bottom: 20px;
-        left: 20px;
+        bottom: 50px;
+        left: 80px;
         font-size:60px;
         width: 400px;
     }
@@ -267,8 +267,8 @@
 /* greetingimage */
 .headerimage {
     position: relative;
-    left: 440px;
-    bottom: 240px;
+    left: 540px;
+    bottom: 320px;
 
     img {
         width: 40%;
@@ -372,6 +372,75 @@
 }
 .hr2 {
     position: relative; top: 200px;
+    background-color: #3A5B15;
+    height: 20px;
+}
+.social-icons {
+    position: relative;
+    top: 250px;
+    left: 270px;
+}
+.facebook-logo {
+    position: relative;
+    left: 125px;
+    bottom: 127px;
+}
+.instagram-logo {
+    position: relative;
+}
+.twitter-logo {
+    position: relative;
+    left: 405px;
+    bottom: 60px;
+}
+.github-logo {
+    position: relative;
+    left: 255px;
+    bottom: 197px;
+}
+
+.website-accessibility {
+    position: relative;
+    left: 150px;
+    bottom: 50px;
+    text-decoration: underline;
+    font-size: larger;
+}
+.privacy-policy {
+    position: relative;
+    left: 185px;
+    text-decoration: underline;
+    font-size: larger;
+    top: 80px;
+}
+.legal-information {
+    position: relative;
+    left: 600px;
+    bottom: 95px;
+    text-decoration: underline;
+    font-size: larger;
+}
+.services {
+    position: relative;
+    left: 645px;
+    top: 35px;
+    text-decoration: underline;
+    font-size: larger;
+}
+.website-title-footer {
+    position: relative;
+    left: 400px;
+    top: 150px;
+    font-size: large;
+}
+.copyright {
+    position: relative;
+    left: 335px;
+    color: grey;
+}
+.hr3 {
+    background-color: #3A5B15;
+    height: 5px;
 }
 }
 
