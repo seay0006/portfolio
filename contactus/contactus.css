@@ -1,4 +1,6 @@
-
+.desktoponly {
+   display: none;
+}
 @media screen and (min-device-width: 1px) and (max-device-width: 600px){
 
     .navbar {
@@ -494,7 +496,12 @@
 
 
 @media screen and (min-device-width: 993px) and (max-device-width: 1440px){
-
+.desktoponly{
+   display: block;
+}
+.headerimage {
+   display: none;
+}
    .navbar {
       height: 300px;
       background-color: #3A5B15;
@@ -535,7 +542,7 @@
    .headerimage {
     position: relative;
     bottom: 420px;
-    right: 225px;
+    width: 1440px%;
  
    }
 
@@ -557,7 +564,7 @@
     position: relative;
     background-color: #3A5B15;
     height: 15px;
-    width: 600px;
+    width:1440px;
     bottom: 610px;
    }
    /* Our contact information section */
@@ -651,7 +658,7 @@
     height: 10px;
     border: 5px;
    top: 260px;
-    width: 600px;
+    width: 1440px;
     right: 50px;
     padding-bottom: 15px;
 
@@ -671,62 +678,62 @@
 }
 .github-logo {
     position: relative;
-    left: 110px;
+    left: 360px;
     bottom: 125px;
 }
 .facebook-logo {
     position: relative;
-    left: 200px;
+    left: 500px;
     bottom: 55px;
 }
 .instagram-logo {
     position: relative;
-    left: 285px;
+    left: 685px;
     top: 70px;
 }
 .twitter-logo {
     position: relative;
-    left: 365px;
+    left: 805px;
     top: 7px;
 }
 /* footer navigation */
 .privacy-policy {
     position: relative;
-    left: 85px;
+    left: 205px;
     bottom: 110px;
     text-decoration: underline;
     font-size: 22px;
 }
 .services {
     position: relative;
-    left: 375px;
+    left: 950px;
     bottom: 160px;
     text-decoration: underline;
     font-size: 22px;
 }
 .website-accessibility {
     position: relative;
-    left: 55px;
+    left: 175px;
     bottom: 150px;
     text-decoration: underline;
     font-size: 22px;
 }
 .legal-information {
     position: relative;
-    left: 325px;
+    left: 910px;
     bottom: 195px;
     text-decoration: underline;
     font-size: 22px;
 }
 .website-title-footer {
     position: relative;
-    bottom: 110px;
-    left: 220px;
-    font-size: 150px;
+    top: 50px;
+    left: 570px;
+    font-size: 250px;
 }
 .copyright {
     position: relative;
-    left: 165px;
+    left: 510px;
     bottom: 125px;
     color: grey;
 }
@@ -736,7 +743,7 @@
     height: 10px;
     border: 5px;
     bottom: 85px;
-    width: 600px;
+    width: 1440px;
     right: 25px;
 }
    
