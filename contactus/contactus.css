@@ -251,8 +251,8 @@
 }
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
    .navbar {
+      width: 100%;
       height: 300px;
-      width: 992px;
       background-color: #3A5B15;
   }
 
@@ -291,21 +291,26 @@
    .headerimage {
     position: relative;
     bottom: 428px;
-    right: 65px;
- 
+    right: 32px;
    }
 
    .banner-square {
     position: relative; 
-    bottom: 810px;
-    left: 100px;
-    width: 400px;
+    bottom: 950px;
+    right: 20px;
+    width: 992px;
+    height: 300px;
     background-color: #9e9e9e8e;
     padding: 50px;
     margin: 20px;
-    border-radius: 12px;
     text-align: center;
-    font-size: 200px;
+    
+    h1{
+      font: bold;
+      font-size: 400%;
+      position: relative;
+      top: 55px;
+    }
 
    }
 
