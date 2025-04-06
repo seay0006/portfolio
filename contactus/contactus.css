@@ -415,7 +415,77 @@
    padding-bottom: 15px;
 }
 
+/* footer section */
 
+.social-icons {
+   position: relative;
+   top: 200px;
+   left: 120px;
+}
+.facebook-logo {
+   position: relative;
+   left: 125px;
+   bottom: 127px;
+}
+.instagram-logo {
+   position: relative;
+}
+.twitter-logo {
+   position: relative;
+   left: 405px;
+   bottom: 60px;
+}
+.github-logo {
+   position: relative;
+   left: 255px;
+   bottom: 197px;
+}
+
+.website-accessibility {
+   position: relative;
+   left: 20px;
+   bottom: 50px;
+   text-decoration: underline;
+   font-size: larger;
+}
+.privacy-policy {
+   position: relative;
+   left: 50px;
+   text-decoration: underline;
+   font-size: larger;
+   top: 80px;
+}
+.legal-information {
+   position: relative;
+   left: 550px;
+   bottom: 95px;
+   text-decoration: underline;
+   font-size: larger;
+}
+.services {
+   position: relative;
+   left: 595px;
+   top: 35px;
+   text-decoration: underline;
+   font-size: larger;
+}
+.website-title-footer {
+   position: relative;
+   left: 300px;
+   top: 150px;
+   font-size: large;
+}
+.copyright {
+   position: relative;
+   left: 235px;
+   color: grey;
+}
+.hr3 {
+   background-color: #3A5B15;
+   height: 5px;
+   position: relative;
+   right: 150px;
+}
 
 
 
