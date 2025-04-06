@@ -505,6 +505,7 @@
    .navbar {
       height: 150px;
       background-color: #3A5B15;
+      padding-bottom: 15px;
   }
 
   .nav1 {
@@ -531,17 +532,23 @@
       color: white;
       font-size: large;
    }
-
+   .logoimagedesktop {
+      position: relative;
+      bottom: 150px;
+   }
    .nilocdevs-logo {
+    display: none;
     position: relative;
     left: 75px;
     bottom: 200px;
+    max-width: 50%;
    }
 
    .headerimagedesktop {
     position: relative;
     bottom: 435px;
     width: 1440px;
+    padding-top: 128px;
    }
 
    .banner-square {
@@ -762,7 +769,7 @@
     border: 5px;
     bottom: 85px;
     width: 1440px;
-    right: 25px;
+    right: 110px;
 }
    
 
