@@ -503,30 +503,30 @@
    display: none;
 }
    .navbar {
-      height: 300px;
+      height: 150px;
       background-color: #3A5B15;
   }
 
   .nav1 {
      position: relative;
-     left: 120px; 
-     top: 100px;
+     left: 1020px; 
+     bottom: 5px;
      text-decoration: underline;
      color: white;
      font-size: large;
   }
   .nav2 {
       position: relative;
-      left: 200px; 
-      top: 100px;
+      left: 1080px; 
+      bottom: 5px;
       text-decoration: underline;
       color: white;
       font-size: large;
    }
    .nav3 {
       position: relative;
-      left: 270px; 
-      top: 100px;
+      left: 1140px; 
+      bottom: 5px;
       text-decoration: underline;
       color: white;
       font-size: large;
@@ -535,20 +535,18 @@
    .nilocdevs-logo {
     position: relative;
     left: 75px;
-    bottom: 300px;
-
+    bottom: 200px;
    }
 
    .headerimagedesktop {
     position: relative;
     bottom: 435px;
     width: 1440px;
- 
    }
 
    .banner-square {
     position: relative; 
-    bottom: 1010px;
+    bottom: 1050px;
     right: 20px;
     height: 300px;
     width: 1440px;
@@ -558,6 +556,13 @@
     text-align: center;
     font-size: 200px;
 
+      h1 {
+         position: relative;
+         top: 5px;
+         font-size:150px;
+      }
+
+
    }
 
    .hr1 {
@@ -565,19 +570,20 @@
     background-color: #3A5B15;
     height: 15px;
     width:1440px;
-    bottom: 610px;
+    bottom: 780px;
    }
    /* Our contact information section */
 
    .our-contact-information{
     position: relative;
-    bottom: 550px;
-    left: 155px;
+    bottom: 740px;
+    left: 555px;
+    font-size: xx-large;
     text-decoration: underline;
    }
    .contact-form{
     position: relative;
-    bottom: 500px;
+    bottom: 700px;
     left: 50px;
    }
    .fname-section{
@@ -634,21 +640,22 @@
     
     label {
        position: relative;
-       bottom: 80px;
+       bottom: 340px;
+       left: 615px;
     }
 
     input {
        position: relative; 
-       right: 115px;
+       left: 475px;
        width: 450px;
        height: 300px;
-       top: 85px;
+       bottom: 175px;
     }   
  }
  .submit-section {
     position: relative;
-    top: 80px;
-    left: 28px;
+    bottom: 180px;
+    left: 620px;
  }
     
  .hr2 {
@@ -657,45 +664,50 @@
     background-color: #3A5B15;
     height: 10px;
     border: 5px;
-   top: 260px;
+    bottom: 110px;
     width: 1440px;
     right: 50px;
     padding-bottom: 15px;
-
-
  }
+
   /* footer section */
   .footersection {
     position: relative;
-    top: 250px;
-    right: 30px;
+    bottom: 150px;
+    left: 60px;
     height: 500px;
 }
+
 /* footer social media icons */
 .social-icons { 
     position: relative;
     left: 10px;
 }
+
 .github-logo {
     position: relative;
     left: 360px;
     bottom: 125px;
 }
+
 .facebook-logo {
     position: relative;
     left: 500px;
     bottom: 55px;
 }
+
 .instagram-logo {
     position: relative;
     left: 685px;
     top: 70px;
 }
+
 .twitter-logo {
     position: relative;
     left: 805px;
     top: 7px;
 }
+
 /* footer navigation */
 .privacy-policy {
     position: relative;
@@ -704,6 +716,7 @@
     text-decoration: underline;
     font-size: 22px;
 }
+
 .services {
     position: relative;
     left: 950px;
@@ -711,6 +724,7 @@
     text-decoration: underline;
     font-size: 22px;
 }
+
 .website-accessibility {
     position: relative;
     left: 175px;
@@ -718,6 +732,7 @@
     text-decoration: underline;
     font-size: 22px;
 }
+
 .legal-information {
     position: relative;
     left: 910px;
@@ -725,18 +740,21 @@
     text-decoration: underline;
     font-size: 22px;
 }
+
 .website-title-footer {
     position: relative;
     top: 50px;
     left: 570px;
     font-size: 250px;
 }
+
 .copyright {
     position: relative;
     left: 510px;
     bottom: 125px;
     color: grey;
 }
+
 .hr3 {
     position: relative;
     background-color: #3A5B15;
