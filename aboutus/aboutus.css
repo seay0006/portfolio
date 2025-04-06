@@ -1,5 +1,7 @@
 @media screen and (min-device-width: 1px) and (max-device-width: 600px){
-    
+    .desktoponly {
+        display: none;
+    }
     .navbar {
         height: 300px;
         background-color: #3A5B15;
