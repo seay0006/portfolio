@@ -56,9 +56,172 @@
       border-radius: 12px;
       text-align: center;
       font-size: 200px;
-    
 
      }
+
+     .hr1 {
+      position: relative;
+      background-color: #3A5B15;
+      height: 15px;
+      width: 600px;
+      bottom: 610px;
+     }
+     /* Our contact information section */
+
+     .our-contact-information{
+      position: relative;
+      bottom: 550px;
+      left: 155px;
+      text-decoration: underline;
+     }
+     .contact-form{
+      position: relative;
+      bottom: 500px;
+      left: 50px;
+     }
+     .fname-section{
+      
+      input {
+         position: relative; 
+         right: 50px;
+         width: 450px;
+         top: 35px;
+      }
+   }
+      .lname-section {
+
+      input {
+         position: relative; 
+         right: 50px;
+         width: 450px;
+         top: 35px;
+      }    
+   }
+   .email-section {
+
+      input {
+         position: relative; 
+         right: 80px;
+         width: 450px;
+         top: 35px;
+      }   
+
+   }
+   .pnumber-section {
+
+
+      input {
+         position: relative; 
+         right: 85px;
+         width: 450px;
+         top: 35px;
+      }   
+   }
+   .rcontact-section {
+      
+      label {
+         position: relative;
+         bottom: 80px;
+      }
+
+      input {
+         position: relative; 
+         right: 115px;
+         width: 450px;
+         height: 300px;
+         top: 85px;
+      }   
+   }
+   .submit-section {
+      position: relative;
+      top: 80px;
+   }
+      
+
+    /* footer section */
+    .footersection {
+      position: relative;
+      top: 250px;
+      height: 500px;
+  }
+  /* footer social media icons */
+  .social-icons { 
+      position: relative;
+      left: 10px;
+  }
+  .github-logo {
+      position: relative;
+      left: 110px;
+      bottom: 125px;
+  }
+  .facebook-logo {
+      position: relative;
+      left: 200px;
+      bottom: 55px;
+  }
+  .instagram-logo {
+      position: relative;
+      left: 285px;
+      top: 70px;
+  }
+  .twitter-logo {
+      position: relative;
+      left: 365px;
+      top: 7px;
+  }
+  /* footer navigation */
+  .privacy-policy {
+      position: relative;
+      left: 85px;
+      bottom: 110px;
+      text-decoration: underline;
+      font-size: 22px;
+  }
+  .services {
+      position: relative;
+      left: 375px;
+      bottom: 160px;
+      text-decoration: underline;
+      font-size: 22px;
+  }
+  .website-accessibility {
+      position: relative;
+      left: 55px;
+      bottom: 150px;
+      text-decoration: underline;
+      font-size: 22px;
+  }
+  .legal-information {
+      position: relative;
+      left: 325px;
+      bottom: 195px;
+      text-decoration: underline;
+      font-size: 22px;
+  }
+  .website-title-footer {
+      position: relative;
+      bottom: 110px;
+      left: 220px;
+      font-size: 150px;
+  }
+  .copyright {
+      position: relative;
+      left: 165px;
+      bottom: 125px;
+      color: grey;
+  }
+  .hr3 {
+      position: relative;
+      background-color: #3A5B15;
+      height: 10px;
+      border: 5px;
+      bottom: 85px;
+      width: 600px;
+      padding-bottom: 15px;
+  }
+     
+
+
 }
 @media screen and (min-device-width: 601px) and (max-device-width: 992px){
 
