@@ -331,8 +331,8 @@
 
   .contact-form{
    position: relative;
-   bottom: 500px;
-   left: 50px;
+   bottom: 750px;
+   left: 150px;
   }
   
   .fname-section{
@@ -373,7 +373,6 @@
 
 }
 .pnumber-section {
-
    label {
       position: relative;
       top: 15px;
@@ -406,7 +405,15 @@
    left: 28px;
 }
    
-
+.hr2 {
+   position: relative;
+   background-color: #3A5B15;
+   height: 15px;
+   right: 150px;
+   width: 992px;
+   bottom: -100px;
+   padding-bottom: 15px;
+}
 
 
 
