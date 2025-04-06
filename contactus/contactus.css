@@ -495,5 +495,251 @@
 
 @media screen and (min-device-width: 993px) and (max-device-width: 1440px){
 
+   .navbar {
+      height: 300px;
+      background-color: #3A5B15;
+  }
+
+  .nav1 {
+     position: relative;
+     left: 120px; 
+     top: 100px;
+     text-decoration: underline;
+     color: white;
+     font-size: large;
+  }
+  .nav2 {
+      position: relative;
+      left: 200px; 
+      top: 100px;
+      text-decoration: underline;
+      color: white;
+      font-size: large;
+   }
+   .nav3 {
+      position: relative;
+      left: 270px; 
+      top: 100px;
+      text-decoration: underline;
+      color: white;
+      font-size: large;
+   }
+
+   .nilocdevs-logo {
+    position: relative;
+    left: 75px;
+    bottom: 300px;
+
+   }
+
+   .headerimage {
+    position: relative;
+    bottom: 420px;
+    right: 225px;
+ 
+   }
+
+   .banner-square {
+    position: relative; 
+    bottom: 810px;
+    left: 100px;
+    width: 400px;
+    background-color: #9e9e9e8e;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 200px;
+
+   }
+
+   .hr1 {
+    position: relative;
+    background-color: #3A5B15;
+    height: 15px;
+    width: 600px;
+    bottom: 610px;
+   }
+   /* Our contact information section */
+
+   .our-contact-information{
+    position: relative;
+    bottom: 550px;
+    left: 155px;
+    text-decoration: underline;
+   }
+   .contact-form{
+    position: relative;
+    bottom: 500px;
+    left: 50px;
+   }
+   .fname-section{
+    label {
+       position: relative;
+       top: 17px;
+    }
+    input {
+       position: relative; 
+       right: 50px;
+       width: 450px;
+       top: 45px;
+    }
+ }
+    .lname-section {
+       label {
+          position: relative;
+          top: 17px;
+       }
+    input {
+       position: relative; 
+       right: 50px;
+       width: 450px;
+       top: 45px;
+    }    
+ }
+ .email-section {
+    label {
+       position: relative;
+       top: 17px;
+    }
+    input {
+       position: relative; 
+       right: 80px;
+       width: 450px;
+       top: 45px;
+    }   
+
+ }
+ .pnumber-section {
+
+    label {
+       position: relative;
+       top: 15px;
+    }
+    input {
+       position: relative; 
+       right: 85px;
+       width: 450px;
+       top: 45px;
+    }   
+ }
+ .rcontact-section {
+    
+    label {
+       position: relative;
+       bottom: 80px;
+    }
+
+    input {
+       position: relative; 
+       right: 115px;
+       width: 450px;
+       height: 300px;
+       top: 85px;
+    }   
+ }
+ .submit-section {
+    position: relative;
+    top: 80px;
+    left: 28px;
+ }
+    
+ .hr2 {
+
+    position: relative;
+    background-color: #3A5B15;
+    height: 10px;
+    border: 5px;
+   top: 260px;
+    width: 600px;
+    right: 50px;
+    padding-bottom: 15px;
+
+
+ }
+  /* footer section */
+  .footersection {
+    position: relative;
+    top: 250px;
+    right: 30px;
+    height: 500px;
+}
+/* footer social media icons */
+.social-icons { 
+    position: relative;
+    left: 10px;
+}
+.github-logo {
+    position: relative;
+    left: 110px;
+    bottom: 125px;
+}
+.facebook-logo {
+    position: relative;
+    left: 200px;
+    bottom: 55px;
+}
+.instagram-logo {
+    position: relative;
+    left: 285px;
+    top: 70px;
+}
+.twitter-logo {
+    position: relative;
+    left: 365px;
+    top: 7px;
+}
+/* footer navigation */
+.privacy-policy {
+    position: relative;
+    left: 85px;
+    bottom: 110px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.services {
+    position: relative;
+    left: 375px;
+    bottom: 160px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.website-accessibility {
+    position: relative;
+    left: 55px;
+    bottom: 150px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.legal-information {
+    position: relative;
+    left: 325px;
+    bottom: 195px;
+    text-decoration: underline;
+    font-size: 22px;
+}
+.website-title-footer {
+    position: relative;
+    bottom: 110px;
+    left: 220px;
+    font-size: 150px;
+}
+.copyright {
+    position: relative;
+    left: 165px;
+    bottom: 125px;
+    color: grey;
+}
+.hr3 {
+    position: relative;
+    background-color: #3A5B15;
+    height: 10px;
+    border: 5px;
+    bottom: 85px;
+    width: 600px;
+    right: 25px;
+}
+   
+
 
 }
