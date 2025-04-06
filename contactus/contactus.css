@@ -313,6 +313,105 @@
     }
 
    }
+   .hr1 {
+      position: relative;
+      background-color: #3A5B15;
+      height: 15px;
+      width: 992px;
+      bottom: 770px;
+     }
+/* Our contact information section */
+
+.our-contact-information{
+   position: relative;
+   bottom: 730px;
+   left: 320px;
+   text-decoration: underline;
+  }
+
+  .contact-form{
+   position: relative;
+   bottom: 500px;
+   left: 50px;
+  }
+  
+  .fname-section{
+   label {
+      position: relative;
+      top: 17px;
+   }
+   input {
+      position: relative; 
+      right: 50px;
+      width: 450px;
+      top: 45px;
+   }
+}
+   .lname-section {
+      label {
+         position: relative;
+         top: 17px;
+      }
+   input {
+      position: relative; 
+      right: 50px;
+      width: 450px;
+      top: 45px;
+   }    
+}
+.email-section {
+   label {
+      position: relative;
+      top: 17px;
+   }
+   input {
+      position: relative; 
+      right: 80px;
+      width: 450px;
+      top: 45px;
+   }   
+
+}
+.pnumber-section {
+
+   label {
+      position: relative;
+      top: 15px;
+   }
+   input {
+      position: relative; 
+      right: 85px;
+      width: 450px;
+      top: 45px;
+   }   
+}
+.rcontact-section {
+   
+   label {
+      position: relative;
+      bottom: 80px;
+   }
+
+   input {
+      position: relative; 
+      right: 115px;
+      width: 450px;
+      height: 300px;
+      top: 85px;
+   }   
+}
+.submit-section {
+   position: relative;
+   top: 80px;
+   left: 28px;
+}
+   
+
+
+
+
+
+
 
 }
 
