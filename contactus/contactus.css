@@ -80,41 +80,53 @@
       left: 50px;
      }
      .fname-section{
-      
+      label {
+         position: relative;
+         top: 17px;
+      }
       input {
          position: relative; 
          right: 50px;
          width: 450px;
-         top: 35px;
+         top: 45px;
       }
    }
       .lname-section {
-
+         label {
+            position: relative;
+            top: 17px;
+         }
       input {
          position: relative; 
          right: 50px;
          width: 450px;
-         top: 35px;
+         top: 45px;
       }    
    }
    .email-section {
-
+      label {
+         position: relative;
+         top: 17px;
+      }
       input {
          position: relative; 
          right: 80px;
          width: 450px;
-         top: 35px;
+         top: 45px;
       }   
 
    }
    .pnumber-section {
 
-
+      label {
+         position: relative;
+         top: 15px;
+      }
       input {
          position: relative; 
          right: 85px;
          width: 450px;
-         top: 35px;
+         top: 45px;
       }   
    }
    .rcontact-section {
@@ -135,13 +147,27 @@
    .submit-section {
       position: relative;
       top: 80px;
+      left: 28px;
    }
       
+   .hr2 {
 
+      position: relative;
+      background-color: #3A5B15;
+      height: 10px;
+      border: 5px;
+     top: 260px;
+      width: 600px;
+      right: 50px;
+      padding-bottom: 15px;
+
+
+   }
     /* footer section */
     .footersection {
       position: relative;
       top: 250px;
+      right: 30px;
       height: 500px;
   }
   /* footer social media icons */
@@ -217,6 +243,7 @@
       border: 5px;
       bottom: 85px;
       width: 600px;
+      right: 25px;
       padding-bottom: 15px;
   }
      
