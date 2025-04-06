@@ -1,0 +1,58 @@
+@media screen and (min-device-width: 1px) and (max-device-width: 600px){
+    
+    .navbar {
+        height: 300px;
+        background-color: #3A5B15;
+    }
+    
+    .nav1 {
+       position: relative;
+       left: 120px; 
+       top: 100px;
+       text-decoration: underline;
+       color: white;
+       font-size: large;
+    }
+    .nav2 {
+        position: relative;
+        left: 200px; 
+        top: 100px;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+     }
+     .nav3 {
+        position: relative;
+        left: 270px; 
+        top: 100px;
+        text-decoration: underline;
+        color: white;
+        font-size: large;
+     }
+    
+     .nilocdevs-logo {
+        position: relative;
+        left: 75px;
+        bottom: 300px;
+    
+       }
+    
+       .headerimage {
+        position: relative;
+        bottom: 420px;
+        right: 225px;
+     
+       }
+
+}
+
+@media screen and (min-device-width: 601px) and (max-device-width: 992px){
+
+}
+
+
+
+@media screen and (min-device-width: 993px) and (max-device-width: 1440px){
+
+
+}
