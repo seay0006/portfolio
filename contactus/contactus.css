@@ -539,22 +539,22 @@
 
    }
 
-   .headerimage {
+   .headerimagedesktop {
     position: relative;
-    bottom: 420px;
-    width: 1440px%;
+    bottom: 435px;
+    width: 1440px;
  
    }
 
    .banner-square {
     position: relative; 
-    bottom: 810px;
-    left: 100px;
-    width: 400px;
+    bottom: 1010px;
+    right: 20px;
+    height: 300px;
+    width: 1440px;
     background-color: #9e9e9e8e;
     padding: 50px;
     margin: 20px;
-    border-radius: 12px;
     text-align: center;
     font-size: 200px;
 
