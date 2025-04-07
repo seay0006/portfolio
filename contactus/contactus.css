@@ -421,105 +421,23 @@
    /* Our contact information section */
 
    .our-contact-information{
-    position: relative;
-    bottom: 740px;
-    left: 555px;
-    font-size: xx-large;
-    text-decoration: underline;
+      position: relative;
+      bottom: 730px;
+      left: 550px;
+      text-decoration: underline;
+     }
+   
+   .contactform {
+      position: relative;
+      width: 1380px;
+      bottom: 680px;
+      left: 40px;
    }
-   .contact-form{
-    position: relative;
-    bottom: 700px;
-    left: 50px;
-   }
-   .fname-section{
-    label {
-       position: relative;
-       top: 17px;
-    }
-    input {
-       position: relative; 
-       right: 50px;
-       width: 450px;
-       top: 45px;
-    }
- }
-    .lname-section {
-       label {
-          position: relative;
-          top: 17px;
-       }
-    input {
-       position: relative; 
-       right: 50px;
-       width: 450px;
-       top: 45px;
-    }    
- }
- .email-section {
-    label {
-       position: relative;
-       top: 17px;
-    }
-    input {
-       position: relative; 
-       right: 80px;
-       width: 450px;
-       top: 45px;
-    }   
-
- }
- .pnumber-section {
-
-    label {
-       position: relative;
-       top: 15px;
-    }
-    input {
-       position: relative; 
-       right: 85px;
-       width: 450px;
-       top: 45px;
-    }   
- }
- .rcontact-section {
-    
-    label {
-       position: relative;
-       bottom: 340px;
-       left: 615px;
-    }
-
-    input {
-       position: relative; 
-       left: 475px;
-       width: 450px;
-       height: 300px;
-       bottom: 175px;
-    }   
- }
- .submit-section {
-    position: relative;
-    bottom: 180px;
-    left: 620px;
- }
-    
- .hr2 {
-
-    position: relative;
-    background-color: #3A5B15;
-    height: 10px;
-    border: 5px;
-    bottom: 110px;
-    width: 1440px;
-    right: 50px;
-    padding-bottom: 15px;
- }
 
   /* footer section */
   .footersection {
     position: relative;
-    bottom: 150px;
+    bottom: 550px;
     left: 60px;
     height: 500px;
 }
@@ -607,7 +525,7 @@
     height: 10px;
     border: 5px;
     bottom: 85px;
-    width: 1440px;
+    width: 100%px;
     right: 110px;
 }
    
