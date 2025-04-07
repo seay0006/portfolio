@@ -385,66 +385,66 @@
     /* footer social media icons */
     .social-icons { 
         position: relative;
-        left: 10px;
+        left: 100px;
     }
     .github-logo {
         position: relative;
-        left: 110px;
+        left: 140px;
         bottom: 125px;
     }
     .facebook-logo {
         position: relative;
-        left: 200px;
+        left: 300px;
         bottom: 55px;
     }
     .instagram-logo {
         position: relative;
-        left: 285px;
+        left: 445px;
         top: 70px;
     }
     .twitter-logo {
         position: relative;
-        left: 365px;
+        left: 585px;
         top: 7px;
     }
     /* footer navigation */
     .privacy-policy {
         position: relative;
-        left: 85px;
+        left: 215px;
         bottom: 110px;
         text-decoration: underline;
         font-size: 22px;
     }
     .services {
         position: relative;
-        left: 375px;
+        left: 675px;
         bottom: 160px;
         text-decoration: underline;
         font-size: 22px;
     }
     .website-accessibility {
         position: relative;
-        left: 55px;
+        left: 185px;
         bottom: 150px;
         text-decoration: underline;
         font-size: 22px;
     }
     .legal-information {
         position: relative;
-        left: 325px;
+        left: 635px;
         bottom: 195px;
         text-decoration: underline;
         font-size: 22px;
     }
     .website-title-footer {
         position: relative;
-        bottom: 110px;
-        left: 220px;
+        top: 80px;
+        left: 440px;
         font-size: 150px;
     }
     .copyright {
         position: relative;
-        left: 165px;
+        left: 365px;
         bottom: 125px;
         color: grey;
     }
@@ -459,45 +459,51 @@
         padding-bottom: 15px;
     }
 }
-}
+
 
 
 
 @media screen and (min-device-width: 993px) and (max-device-width: 1440px){
 
     .desktoponly {
+        display: block;
+    }
+    .nilocdevs-logo{
         display: none;
     }
     .navbar {
-        height: 300px;
+        height: 150px;
         background-color: #3A5B15;
     }
     
     .nav1 {
        position: relative;
-       left: 120px; 
-       top: 100px;
+       left: 1020px; 
+       top: 20px;
        text-decoration: underline;
        color: white;
        font-size: large;
     }
     .nav2 {
         position: relative;
-        left: 200px; 
-        top: 100px;
+        left: 1100px; 
+        top: 20px;
         text-decoration: underline;
         color: white;
         font-size: large;
      }
      .nav3 {
         position: relative;
-        left: 270px; 
-        top: 100px;
+        left: 1180px; 
+        top: 20px;
         text-decoration: underline;
         color: white;
         font-size: large;
      }
-    
+    .logoimagedesktop {
+        position: relative;
+        bottom: 150px;
+    }
      .nilocdevs-logo {
         position: relative;
         left: 75px;
@@ -513,12 +519,12 @@
        }
 
        .aboutusspace {
-        height: 50px;
+        height: 250px;
         
             h1{
                 position: relative;
-                bottom: 205px;
-                left: 85px;
+                bottom: 65px;
+                left: 485px;
                 font-size: 100px;
             }
        }
@@ -530,7 +536,7 @@
     }
         .ourcatalog-button {
             position: relative;
-            left: 170px;
+            left: 570px;
             bottom: 60px;
 
             background-color: #3A5B15;
@@ -541,7 +547,7 @@
 
             h3 {
                 position: relative;
-                top: 10px;
+                top: 8px;
                 color: white;
             }
         }
@@ -549,33 +555,34 @@
         
         .ourstory-header {
             position: relative;
-            left: 240PX;
-
+            left: 280PX;
+            top: 50px;
             h2 {
-                font-size: xx-large;
+                font-size: xxx-large;
                 text-decoration: underline;
             }
         }
 
         .ourstory-text {
             position: relative;
-            top: 15px;
-            left: 80px;
-            width: 450px;
+            top: 85px;
+            left: 180px;
+            width: 400px;
             text-align: center;
+            font-size: large;
         }
 
         .map-embed {
             position: relative;
-            top: 35px;
-            left: 25px;
+            bottom: 305px;
+            left: 825px;
         }
         /* Our goals section */
 
         .hr2 {
             margin-top: 15px;
             position: relative;
-            top: 35px;
+            bottom: 235px;
             background-color: #3A5B15;
             height: 10px;
             margin-bottom: 10px ;
@@ -583,24 +590,33 @@
 
         .ourgoal-header {
             position: relative;
-            top: 50px;
-            left: 235px;
+            bottom: 210px;
+            left: 635px;
             
             h2{
-                font-size: xx-large;
+                font-size: xxx-large;
                 text-decoration: underline;
             }
         }
         .ourgoal-text {
             p {
                 position: relative;
-                left: 75px;
-                width: 450px;
+                left: 405px;
+                width: 650px;
                 text-align: center;
-                top: 100px;
+                bottom: 180px;
+                font-size: large;
             }
         }
-
+        .hr3 {
+            position: relative;
+            background-color: #3A5B15;
+            height: 10px;
+            border: 5px;
+            top: 25px;
+            width: 1440px;
+            padding-bottom: 15px;
+        }
 
 
 
@@ -608,92 +624,88 @@
     /* footer section */
        .footersection {
         position: relative;
-        top: 240px;
+        bottom: 145px;
         height: 500px;
     }
     /* footer social media icons */
-    .social-icons { 
+    .social-icons {
         position: relative;
-        left: 10px;
-    }
-    .github-logo {
-        position: relative;
-        left: 110px;
-        bottom: 125px;
+        top: 200px;
+        left: 500px;
     }
     .facebook-logo {
         position: relative;
-        left: 200px;
-        bottom: 55px;
+        left: 125px;
+        bottom: 127px;
     }
     .instagram-logo {
         position: relative;
-        left: 285px;
-        top: 70px;
     }
     .twitter-logo {
         position: relative;
-        left: 365px;
-        top: 7px;
+        left: 405px;
+        bottom: 60px;
     }
-    /* footer navigation */
-    .privacy-policy {
+    .github-logo {
         position: relative;
-        left: 85px;
-        bottom: 110px;
-        text-decoration: underline;
-        font-size: 22px;
+        left: 255px;
+        bottom: 197px;
     }
-    .services {
-        position: relative;
-        left: 375px;
-        bottom: 160px;
-        text-decoration: underline;
-        font-size: 22px;
-    }
+    
     .website-accessibility {
         position: relative;
-        left: 55px;
-        bottom: 150px;
+        left: 200px;
+        bottom: 160px;
         text-decoration: underline;
-        font-size: 22px;
+        font-size: 35px;
+    }
+    .privacy-policy {
+        position: relative;
+        left: 255px;
+        text-decoration: underline;
+        font-size: 35px;
+        top: 60px;
+        
     }
     .legal-information {
         position: relative;
-        left: 325px;
-        bottom: 195px;
+        left: 950px;
+        bottom: 235px;
         text-decoration: underline;
-        font-size: 22px;
+        font-size: 35px;
+    }
+    .services {
+        position: relative;
+        left: 1025px;
+        top: -10px;
+        text-decoration: underline;
+        font-size: 35px;
     }
     .website-title-footer {
         position: relative;
-        bottom: 110px;
-        left: 220px;
-        font-size: 150px;
+        left: 665px;
+        top: 125px;
+        font-size:xx-large;
     }
     .copyright {
         position: relative;
-        left: 165px;
-        bottom: 125px;
+        left: 595px;
+        bottom: 120px;
         color: grey;
     }
     .hr3 {
-        position: relative;
         background-color: #3A5B15;
-        height: 10px;
-        border: 5px;
-        top: 285px;
-        width: 600px;
-        padding-bottom: 15px;
+        height: 5px;
     }
+    
     .hr4 {
         position: relative;
         background-color: #3A5B15;
         height: 10px;
         border: 5px;
         bottom: 125px;
-        width: 600px;
+        width: 1440px;
         padding-bottom: 15px;
     }
 }
-}
+
