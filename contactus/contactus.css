@@ -1,6 +1,15 @@
 .desktoponly {
    display: none;
 }
+a:link {
+   color: white;
+}
+a:visited {
+   color: white;
+}
+a:hover {
+   color: burlywood;
+}
 @media only screen and (min-width: 1px) and (max-width:600px){
 
     .navbar {
