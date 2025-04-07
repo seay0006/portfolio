@@ -620,7 +620,7 @@ a:hover {
             height: 10px;
             border: 5px;
             top: 25px;
-            width: 1440px;
+            width: 100%;
             padding-bottom: 15px;
         }
 
@@ -631,6 +631,7 @@ a:hover {
        .footersection {
         position: relative;
         bottom: 145px;
+        left: 500px;
         height: 500px;
     }
     /* footer social media icons */
@@ -710,7 +711,7 @@ a:hover {
         height: 10px;
         border: 5px;
         bottom: 125px;
-        width: 1440px;
+        width: 100%;
         padding-bottom: 15px;
     }
 }
