@@ -1,7 +1,7 @@
 .desktoponly {
    display: none;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 1px) and (max-width:600px){
 
     .navbar {
         height: 300px;
@@ -81,43 +81,40 @@
       bottom: 500px;
       left: 50px;
      }
-     .fname-section{
-      label {
-         position: relative;
-         top: 217px;
+    
+   .fname {
+      div{
+         position: relative; 
+         left: 450px;
+         width: 450px;
+         top: 50px;
       }
-  
+      
    }
-   .inputbox1 {
-      position: relative; 
-      left: 450px;
-      width: 450px;
-      top: 50px;
-   }
-      .lname-section {
+      .lname {
          label {
             position: relative;
             top: 17px;
          }
-      input {
-         position: relative; 
-         right: 50px;
-         width: 450px;
-         top: 45px;
-      }    
+  
    }
-   .email-section {
+   .inputbox2 {
+      position: relative; 
+      width: 450px;
+      top: 15px;
+   }
+   .email {
       label {
          position: relative;
          top: 17px;
       }
-      input {
-         position: relative; 
-         right: 80px;
-         width: 450px;
-         top: 45px;
-      }   
 
+
+   }
+   .inputbox3 {
+      position: relative; 
+      width: 450px;
+      top: 15px;
    }
    .pnumber-section {
 
@@ -125,27 +122,22 @@
          position: relative;
          top: 15px;
       }
-      input {
-         position: relative; 
-         right: 85px;
-         width: 450px;
-         top: 45px;
-      }   
+
+   }
+   .inputbox4 {
+      width: 450px;
+      top: 15px;
    }
    .rcontact-section {
       
       label {
          position: relative;
          bottom: 80px;
-      }
-
-      input {
-         position: relative; 
-         right: 115px;
-         width: 450px;
-         height: 300px;
-         top: 85px;
-      }   
+      } 
+   }
+   .inputbox5 {
+      width: 450px;
+      top: 15px;
    }
    .submit-section {
       position: relative;
@@ -252,9 +244,9 @@
 
 
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width:992px){
+   
    .navbar {
-      width: 100%;
       height: 300px;
       background-color: #3A5B15;
   }
@@ -332,98 +324,15 @@
    text-decoration: underline;
   }
 
-  .contact-form{
+.contactform {
    position: relative;
-   bottom: 750px;
-   left: 150px;
-  }
-  
-  .fname-section{
-   label {
-      position: relative;
-      top: 17px;
-   }
-   input {
-      position: relative; 
-      right: 50px;
-      width: 450px;
-      top: 45px;
-   }
+   bottom: 700px;
+   left: 10px;
 }
-   .lname-section {
-      label {
-         position: relative;
-         top: 17px;
-      }
-   input {
-      position: relative; 
-      right: 50px;
-      width: 450px;
-      top: 45px;
-   }    
-}
-.email-section {
-   label {
-      position: relative;
-      top: 17px;
-   }
-   input {
-      position: relative; 
-      right: 80px;
-      width: 450px;
-      top: 45px;
-   }   
-
-}
-.pnumber-section {
-   label {
-      position: relative;
-      top: 15px;
-   }
-   input {
-      position: relative; 
-      right: 85px;
-      width: 450px;
-      top: 45px;
-   }   
-}
-.rcontact-section {
-   
-   label {
-      position: relative;
-      bottom: 80px;
-   }
-
-   input {
-      position: relative; 
-      right: 115px;
-      width: 450px;
-      height: 300px;
-      top: 85px;
-   }   
-}
-.submit-section {
-   position: relative;
-   top: 80px;
-   left: 28px;
-}
-   
-.hr2 {
-   position: relative;
-   background-color: #3A5B15;
-   height: 15px;
-   right: 150px;
-   width: 992px;
-   bottom: -100px;
-   padding-bottom: 15px;
-}
-
-/* footer section */
-
 .social-icons {
    position: relative;
-   top: 200px;
-   left: 120px;
+   top: -550px;
+   left: 275px;
 }
 .facebook-logo {
    position: relative;
@@ -443,60 +352,62 @@
    left: 255px;
    bottom: 197px;
 }
-
+.linksfooter {
+   position: relative;
+   right: 250px;
+   bottom: 700px;
+}
 .website-accessibility {
    position: relative;
-   left: 20px;
-   bottom: 50px;
+   left: 350px;
+   bottom: 120px;
    text-decoration: underline;
-   font-size: larger;
+   font-size: 25px;
 }
 .privacy-policy {
    position: relative;
-   left: 50px;
+   left: 380px;
    text-decoration: underline;
-   font-size: larger;
-   top: 80px;
+   font-size: 25px;
+   top: 100px;
+   
 }
 .legal-information {
    position: relative;
-   left: 550px;
-   bottom: 95px;
+   left: 950px;
+   bottom: 175px;
    text-decoration: underline;
-   font-size: larger;
+   font-size: 25px;
 }
 .services {
    position: relative;
-   left: 595px;
-   top: 35px;
+   left: 1000px;
+   top: 50px;
    text-decoration: underline;
-   font-size: larger;
+   font-size: 25px;
 }
 .website-title-footer {
    position: relative;
-   left: 300px;
-   top: 150px;
-   font-size: large;
+   left: 445px;
+   bottom: 490px;
+   font-size:xx-large;
 }
 .copyright {
    position: relative;
-   left: 235px;
+   left: 625px;
+   bottom: -10px;
    color: grey;
 }
 .hr3 {
+   position: relative;
    background-color: #3A5B15;
    height: 5px;
-   position: relative;
-   right: 150px;
+   bottom: 680px;
+}
 }
 
 
-
-
-}
-
-
-@media only screen and (max-width: 2200px) {
+@media only screen and (min-width: 993px) and (max-width:2200px){
 
    .desktoponly{
       display: block;
