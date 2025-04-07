@@ -8,8 +8,8 @@
  <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="homepage.css">
-   <title>homepage</title>
+   <link rel="stylesheet" href="/contactus/contactus.css">
+   <title>contact-us</title>
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
 
    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -24,36 +24,39 @@
          <div class="container-fluid">
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                  aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
-                 <span class="navbar-toggler-icon">
-
-                 </span>
+                 <span class="navbar-toggler-icon"></span>
              </button>
              <div class="collapse navbar-collapse" id="navbarID">
                  <div class="navbar-nav">
                   <!-- navigation for home page -->
-                   <div class="nav1">
-                     <a class="nav-link active" aria-label="link to homepage"></a> 
-                     <a href="/homepage/homepage.html">Home</a>
-                   </div>
-
-
-                  <!-- navigation for about page -->
-                  <div class="nav2">
-                     <a class="nav-link active" aria-label="link to about us page"></a> 
-                     <a href="/aboutus/aboutus.html">About</a>
+                  <div class="nav1">
+                    <a class="nav-link active" aria-label="link to homepage"></a> 
+                    <a href="/homepage/homepage.html">Home</a>
                   </div>
 
-                  
-                  <!-- navigation for contact page -->
-                  <div class="nav3">
-                     <a class="nav-link active" aria-label="link to contact page"></a> 
-                     <a href="/contactus/contactus.html">Contact</a>
+
+                 <!-- navigation for about page -->
+                 <div class="nav2">
+                    <a class="nav-link active" aria-label="link to about us page"></a> 
+                    <a href="/aboutus.html">About</a>
+                 </div>
+
+                 
+                 <!-- navigation for contact page -->
+                 <div class="nav3">
+                    <a class="nav-link active" aria-label="link to contact page"></a> 
+                    <a href="/contactus/contactus.html">Contact</a>
                  </div>
                 </div>
             </div>
           </div>
      </nav>
-     
+     <!-- div for image header for the desktop version -->
+     <div class="desktoponly">
+      <div class="logoimagedesktop"> 
+        <img src="/images/contactus/NilocDevs-logosmall.png">
+      </div>
+    </div>
      <div class="nilocdevs-logo">
       <img src="/images/homepage/NilocDevs-Logo.png">
      </div>
@@ -62,55 +65,66 @@
       <h1>Hello! We're NILOC DEVS!</h1>
      </div>
      <div class="headerimage">
-      <img src="/images/homepage/greetingimage-2x.png">
+      <img src="/images/contactus/headerimg.jpg">
      </div>
-<!-- divider for header and body area -->
-     
-<div class="hr1">
-      <hr>
-     </div>
-<div class="socials">
-  <div class="container-fluid1">
-     <div class="card col" style="width: 100%;">
-      <div class="github-icon">
-       <img src="/images/homepage/githubicon-1.5x.png" class="card-img-top" alt="github icon">
+
+     <!-- div for image header for the desktop version -->
+      <div class="desktoponly">
+        <div class="headerimagedesktop"> 
+          <img src="/images/contactus/headerimg1440.jpg">
+        </div>
       </div>
-      <div class="card1">
-       <div class="card-body">
-         <h5 class="card-title">Github</h5>
-         <p class="card-text">Checkout our work within the world of web development on our Github!</p>
-       </div>
-     </div>
-      </div>
+
+<!-- banner contact-us backdrop-->
+  <div class="banner-square">
+      <h1>Contact Us</h1>
   </div>
-     <div class="card2">
-     <div class="card col" style="width: 100%;">
-      <div class="instagram-icon">
-       <img src="/images/homepage/instagramicon.png" class="card-img-top" alt="instagram icon">
-      </div>
-       <div class="card-body">
-         <h5 class="card-title">Instagram</h5>
-         <p class="card-text">Checkout our work, or contact us on Instagram! </p>
-       </div>
-     </div>
-     </div>
-</div>
-<div class="hr4">
+
+<!-- hr 1 = green line underneath banner -->
+  <div class="hr1">
+    <hr>
+  </div>
+
+  <div class="our-contact-information">
+    
+    <h2>Our Contact Information</h2>
+  </div>
+  <div class="contact-form">
+  <form action="/action_page.php">
+
+    <div class="fname-section">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    </div>
+
+    <div class="lname-section">
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    </div>
+
+    <div class="email-section">
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" name="email"><br><br>
+    </div>
+
+    <div class="pnumber-section">
+    <label for="pnumber">Phone Number:</label>
+    <input type="text" id="pnumber" name="pumber"><br><br>
+    </div>
+
+    <div class="rcontact-section">
+    <label for="rcontact">Reason for Contact:</label>
+    <input type="text" id="rcontact" name="rcontact"><br><br>
+    </div>
+
+    <div class="submit-section">
+      <input type="submit" value="Submit">
+    </div>
+    
+<div class="hr2">
   <hr>
 </div>
 
-  <div class="whatdowedo">
-    <div class="whatdowedoheader"><h2>What do we do?</h2></div>
-    <div class="whatdowedotext"><h3>Our focus is on Web Development and Graphic Design, hoping to bring your vision to life!
-    </h3></div>
-  </div>
-  <!-- what do we do button -->
-   <div class="whatdowedobutton">
-        <h3>Our Catalog!</h3>
-   </div>
-  <div class="hr2">
-    <hr>
-   </div>
 <!-- footer section -->
 <footer>
   <div class="footersection">
@@ -158,11 +172,9 @@
 
 
 </footer>
+  </form>
+  </div>
  </body> 
  </html>
-  
 </head>
-<body>
-  
-</body>
 </html>
