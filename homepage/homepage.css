@@ -428,7 +428,7 @@ a:hover {
 }
 
 /* desktop device query */
-@media screen and (min-device-width: 993px) and (max-device-width: 2200px) {
+@media screen and (min-device-width: 993px) {
 
  /* Navigation bar at the top of the page */
  .navbar {

@@ -530,33 +530,25 @@ a:hover {
             h1{
                 position: relative;
                 bottom: 65px;
-                left: 485px;
+                left: 975px;
                 font-size: 100px;
             }
        }
+
+
+       .aboutus-button {
+        position: relative;
+        bottom: 50px;
+        left: 200px;
+       }
+
        .hr1 {
         position: relative;
         background-color: #3A5B15;
         height: 10px;
         margin-bottom: 10px ;
     }
-        .ourcatalog-button {
-            position: relative;
-            left: 570px;
-            bottom: 60px;
 
-            background-color: #3A5B15;
-            width: 250px;
-            height: 50px;
-            text-align: center;
-            border-radius: 8px;
-
-            h3 {
-                position: relative;
-                top: 8px;
-                color: white;
-            }
-        }
         /* our story section */
         
         .ourstory-header {
