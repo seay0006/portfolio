@@ -445,7 +445,7 @@
 }
 
 /* desktop device query */
-@media screen and (min-device-width: 993px) and (max-device-width: 1440px) {
+@media screen and (min-device-width: 993px) and (max-device-width: 2200px) {
 
  /* Navigation bar at the top of the page */
  .navbar {
