@@ -98,43 +98,27 @@ a:hover {
 
 
     /* What do we do section */
-    .whatdowedo {
-        text-align: center;
-    }
-    .whatdowedoheader{
-        h2{
-            text-decoration: underline;
-            font-size: 58px;
-        }
-    }
-    .whatdowedotext{
-        h3{
-            position: relative;
-            left: 100px;
-            top: 25px;
-            font-size: 38px;
-            width: 400px;
-        }
-    }
-
-    /*Our Catalog button within the "what do we do?" section  */
-
-    .whatdowedobutton {
+    .whatdowedoheader {
         position: relative;
-        top: 100px;
-        left: 140px;
-        background-color: #3A5B15;
-        width: 300px;
-        height: 75px;
-        border-radius: 10px;
-        box-shadow: inset;
-
-        h3{
-            position: relative;
-            left: 80px;
-            top: 20px;
-            color: white;
+        text-align: center;
+        font-size: 55px;
+        text-decoration: underline;
+    
+        h2 {
+            font-size: larger;
         }
+    }
+    .whatdowedotext {
+        position: relative;
+        width: 600px;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .button-wdwdn{
+        position: relative;
+        left: 425px;
+        top: 100px;
+        scale: 200%;
     }
     /* hr above the footer of homepage */
     .hr2 {
@@ -363,21 +347,11 @@ a:hover {
     padding-top: 15px;
     left: 200px;
 }
-.whatdowedobutton {
+.button-wdwdn{
     position: relative;
-    left: 340px;
-    color: white;
-    height: 50px;
-    border-radius: 8px;
-    top: 50px;
-    background-color: #3A5B15;
-    width: 300px;
-    text-align: center;
-    
-    h3{
-        position: relative;
-        top: 8px;
-    }
+    left: 825px;
+    top: 100px;
+    scale: 200%;
 }
 .hr2 {
     position: relative; top: 200px;
