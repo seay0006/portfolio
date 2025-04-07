@@ -242,7 +242,7 @@
     
     .nav1 {
        position: relative;
-       left: 120px; 
+       left: 320px; 
        top: 100px;
        text-decoration: underline;
        color: white;
@@ -250,7 +250,7 @@
     }
     .nav2 {
         position: relative;
-        left: 200px; 
+        left: 400px; 
         top: 100px;
         text-decoration: underline;
         color: white;
@@ -258,7 +258,7 @@
      }
      .nav3 {
         position: relative;
-        left: 270px; 
+        left: 470px; 
         top: 100px;
         text-decoration: underline;
         color: white;
@@ -267,7 +267,7 @@
     
      .nilocdevs-logo {
         position: relative;
-        left: 75px;
+        left: 275px;
         bottom: 300px;
     
        }
@@ -285,7 +285,7 @@
             h1{
                 position: relative;
                 bottom: 205px;
-                left: 85px;
+                left: 285px;
                 font-size: 100px;
             }
        }
@@ -297,7 +297,7 @@
     }
         .ourcatalog-button {
             position: relative;
-            left: 170px;
+            left: 370px;
             bottom: 60px;
 
             background-color: #3A5B15;
@@ -316,7 +316,7 @@
         
         .ourstory-header {
             position: relative;
-            left: 240PX;
+            left: 440PX;
 
             h2 {
                 font-size: xx-large;
@@ -327,15 +327,15 @@
         .ourstory-text {
             position: relative;
             top: 15px;
-            left: 80px;
-            width: 450px;
+            left: 120px;
+            width: 750px;
             text-align: center;
         }
 
         .map-embed {
             position: relative;
             top: 35px;
-            left: 25px;
+            left: 225px;
         }
         /* Our goals section */
 
@@ -351,7 +351,7 @@
         .ourgoal-header {
             position: relative;
             top: 50px;
-            left: 235px;
+            left: 435px;
             
             h2{
                 font-size: xx-large;
@@ -361,21 +361,25 @@
         .ourgoal-text {
             p {
                 position: relative;
-                left: 75px;
-                width: 450px;
+                left: 115px;
+                width: 750px;
                 text-align: center;
                 top: 100px;
             }
         }
-
-
-
-
-
+        .hr3 {
+            position: relative;
+            background-color: #3A5B15;
+            height: 10px;
+            border: 5px;
+            top: 145px;
+            width: 992px;
+            padding-bottom: 15px;
+        }
     /* footer section */
        .footersection {
         position: relative;
-        top: 240px;
+        top: 140px;
         height: 500px;
     }
     /* footer social media icons */
@@ -444,22 +448,14 @@
         bottom: 125px;
         color: grey;
     }
-    .hr3 {
-        position: relative;
-        background-color: #3A5B15;
-        height: 10px;
-        border: 5px;
-        top: 285px;
-        width: 600px;
-        padding-bottom: 15px;
-    }
+    
     .hr4 {
         position: relative;
         background-color: #3A5B15;
         height: 10px;
         border: 5px;
         bottom: 125px;
-        width: 600px;
+        width: 992px;
         padding-bottom: 15px;
     }
 }
