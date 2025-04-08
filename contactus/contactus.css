@@ -1,6 +1,9 @@
 .desktoponly {
    display: none;
 }
+.mobileonly {
+   display: none;
+}
 a:link {
    color: white;
 }
@@ -14,33 +17,21 @@ a:hover {
 
     .navbar {
         height: 300px;
+        width: 100%;
         background-color: #3A5B15;
     }
-
-    .nav1 {
-       position: relative;
-       left: 120px; 
-       top: 100px;
-       text-decoration: underline;
-       color: white;
-       font-size: large;
-    }
-    .nav2 {
-        position: relative;
-        left: 200px; 
-        top: 100px;
-        text-decoration: underline;
-        color: white;
-        font-size: large;
-     }
-     .nav3 {
-        position: relative;
-        left: 270px; 
-        top: 100px;
-        text-decoration: underline;
-        color: white;
-        font-size: large;
-     }
+    .navlinks{
+      position: relative;
+      left: 180px;
+      top: 120px;
+ 
+  }
+      .mobileonly{
+         display: block;
+         position: relative;
+         bottom: 420px;
+         right: 75px;
+      }
 
      .nilocdevs-logo {
       pointer-events: none;
@@ -51,6 +42,7 @@ a:hover {
      }
 
      .headerimage {
+      display: none;
       position: relative;
       bottom: 420px;
       right: 225px;
@@ -186,38 +178,23 @@ a:hover {
       background-color: #3A5B15;
   }
 
-  .nav1 {
-     position: relative;
-     left: 120px; 
-     top: 100px;
-     text-decoration: underline;
-     color: white;
-     font-size: large;
-  }
-  .nav2 {
-      position: relative;
-      left: 200px; 
-      top: 100px;
-      text-decoration: underline;
-      color: white;
-      font-size: large;
-   }
-   .nav3 {
-      position: relative;
-      left: 270px; 
-      top: 100px;
-      text-decoration: underline;
-      color: white;
-      font-size: large;
-   }
+  .navlinks{
+   position: relative;
+   left: 380px;
+   top: 120px;
+
+}
 
    .nilocdevs-logo {
    pointer-events: none;
     position: relative;
-    left: 75px;
+    left: 275px;
     bottom: 300px;
 
    }
+
+
+
 
    .headerimage {
     position: relative;
@@ -343,6 +320,11 @@ a:hover {
 }
 @media only screen and (min-width: 993px) and (max-width:2200px){
 
+
+
+   .body {
+      text-align: center;
+   }
    .desktoponly{
       display: block;
    }
@@ -358,30 +340,13 @@ a:hover {
       padding-bottom: 15px;
   }
 
-  .nav1 {
-     position: relative;
-     left: 1020px; 
-     bottom: 5px;
-     text-decoration: underline;
-     color: white;
-     font-size: large;
-  }
-  .nav2 {
-      position: relative;
-      left: 1080px; 
-      bottom: 5px;
-      text-decoration: underline;
-      color: white;
-      font-size: large;
-   }
-   .nav3 {
-      position: relative;
-      left: 1140px; 
-      bottom: 5px;
-      text-decoration: underline;
-      color: white;
-      font-size: large;
-   }
+  .navlinks{
+   position: relative;
+   left: 1480px;
+   top: 20px;
+   z-index: 2;
+
+}
    .logoimagedesktop {
       pointer-events: none;
       position: relative;
@@ -399,7 +364,7 @@ a:hover {
    .headerimagedesktop {
     position: relative;
     bottom: 435px;
-    width: 1440px;
+    width: 100%;
     padding-top: 128px;
    }
 
