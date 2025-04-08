@@ -42,6 +42,7 @@ a:hover {
      }
     
      .nilocdevs-logo {
+        pointer-events: none;
         position: relative;
         left: 75px;
         bottom: 300px;
@@ -275,6 +276,7 @@ a:hover {
      }
     
      .nilocdevs-logo {
+        pointer-events: none;
         position: relative;
         left: 275px;
         bottom: 300px;
@@ -475,6 +477,7 @@ a:hover {
         display: block;
     }
     .nilocdevs-logo{
+        pointer-events: none;
         display: none;
     }
     .navbar {
@@ -507,6 +510,7 @@ a:hover {
         font-size: large;
      }
     .logoimagedesktop {
+        pointer-events: none;
         position: relative;
         bottom: 150px;
     }

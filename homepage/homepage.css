@@ -255,6 +255,7 @@ a:hover {
     padding-left: 50px;
 }
 .nilocdevs-logo {
+    pointer-events: none;
     position: relative;
     bottom: 140px;
     left: -20px;
@@ -480,6 +481,7 @@ a:hover {
     padding-left: 50px;
 }
 .nilocdevs-logo {
+    pointer-events: none;
     position: relative;
     bottom: 135px;
     left: 20px;
