@@ -225,22 +225,9 @@ a:hover {
     background-color: #3A5B15;
     width: 992px;
 }
-.navbar-nav {
+.navlinks{
     position: relative;
-    text-decoration: underline;
-    color: white;
-    font-size: 22px;
-    left: 515px;
-    top: 8px;
-}
-.nav1 {
-    padding-left: 50px;
-}
-.nav2 {
-    padding-left: 50px;
-}
-.nav3 {
-    padding-left: 50px;
+    left: 750px;
 }
 .nilocdevs-logo {
     pointer-events: none;
@@ -256,7 +243,7 @@ a:hover {
 .headergreeting {
     h1 {
         position: relative;
-        bottom: 50px;
+        bottom: 240px;
         left: 80px;
         font-size:60px;
         width: 400px;
@@ -352,21 +339,10 @@ a:hover {
     padding-top: 15px;
     left: 200px;
 }
-.whatdowedobutton {
+.button-wdwdn {
     position: relative;
-    left: 340px;
-    color: white;
-    height: 50px;
-    border-radius: 8px;
-    top: 50px;
-    background-color: #3A5B15;
-    width: 300px;
-    text-align: center;
-    
-    h3{
-        position: relative;
-        top: 8px;
-    }
+    left:400px;
+    top: 100px;
 }
 .hr2 {
     position: relative; top: 200px;
