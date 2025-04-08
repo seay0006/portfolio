@@ -423,31 +423,19 @@ a:hover {
 
  /* Navigation bar at the top of the page */
  .navbar {
-    height: 120px;
+    height: 220px;
     background-color: #3A5B15;
-    width: 1440px;
+    width: 100%;
 }
-.navbar-nav {
+.navlinks{
     position: relative;
-    text-decoration: underline;
-    color: white;
-    font-size: 22px;
-    left: 915px;
-    top: 8px;
-}
-.nav1 {
-    padding-left: 50px;
-}
-.nav2 {
-    padding-left: 50px;
-}
-.nav3 {
-    padding-left: 50px;
+    left: 1400px;
+    font-size: x-large;
 }
 .nilocdevs-logo {
     pointer-events: none;
     position: relative;
-    bottom: 135px;
+    bottom: 205px;
     left: 20px;
 
     img{
@@ -458,7 +446,7 @@ a:hover {
 .headergreeting {
     h1 {
         position: relative;
-        top: 100px;
+        bottom: 270px;
         left: 120px;
         font-size: 60px;
         width: 500px;
@@ -481,7 +469,7 @@ a:hover {
     height: 20px;
     border: 5px;
     bottom: 200px;
-    width: 1440px;
+    width: 100%;
     padding-bottom: 15px;
 }
 .github-icon {
@@ -490,7 +478,7 @@ a:hover {
 .socials {
     position: relative;
     bottom: 75px;
-    left: 65px;
+    left: 265px;
     display: grid;
     grid-template-columns:646px 646px;
     width: 50px;
@@ -532,7 +520,7 @@ a:hover {
 /* hr between whatdowedo and socials */
 .hr4 {
     position: relative;
-    left: 100px;
+    left: 300px;
     width: 1300px;
     padding-bottom: 25px;
 }
@@ -540,7 +528,7 @@ a:hover {
 
 .whatdowedoheader {
     position: relative;
-    left: 120px;
+    left: 320px;
     text-align: center;
     font-size: 85px;
     text-decoration: underline;
@@ -557,25 +545,27 @@ a:hover {
     font-size: 205px;
     text-align: center;
     padding-top: 15px;
-    left: 425px;
+    left: 625px;
     bottom: 10px;
 }
 .button-wdwdn{
     position: relative;
-    left: 1255px;
+    left: 1655px;
     top: 100px;
     scale: 200%;
 }
 .hr2 {
     position: relative; top: 200px;
     background-color: #3A5B15;
-    width: 1440px;
+    width: 100%;
     height: 20px;
 }
 .social-icons {
     position: relative;
+    text-align: center;
+    width: 100%;
     top: 250px;
-    left: 500px;
+    right: 230px;
 }
 .facebook-logo {
     position: relative;
@@ -598,14 +588,14 @@ a:hover {
 
 .website-accessibility {
     position: relative;
-    left: 200px;
+    left: 400px;
     bottom: 100px;
     text-decoration: underline;
     font-size: 35px;
 }
 .privacy-policy {
     position: relative;
-    left: 255px;
+    left: 455px;
     text-decoration: underline;
     font-size: 35px;
     top: 120px;
@@ -613,27 +603,27 @@ a:hover {
 }
 .legal-information {
     position: relative;
-    left: 950px;
+    left: 1150px;
     bottom: 175px;
     text-decoration: underline;
     font-size: 35px;
 }
 .services {
     position: relative;
-    left: 1025px;
+    left: 1225px;
     top: 50px;
     text-decoration: underline;
     font-size: 35px;
 }
 .website-title-footer {
     position: relative;
-    left: 665px;
+    left: 835px;
     top: 250px;
     font-size:xx-large;
 }
 .copyright {
     position: relative;
-    left: 595px;
+    left: 770px;
     color: grey;
 }
 .hr3 {
